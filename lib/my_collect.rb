@@ -5,5 +5,4 @@ def my_collect(collection)
     i += 1
   end
   (collection) do { |lang| lang.upcase }
-  collection
 end
