@@ -5,4 +5,5 @@ def my_collect(collection)
     i += 1
   end
   my_collect(collection) do { |lang| lang.upcase }
+  collection
 end
