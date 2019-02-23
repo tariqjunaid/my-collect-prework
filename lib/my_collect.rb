@@ -6,4 +6,5 @@ def my_collect(collection)
     i += 1
  #   new_collection
   end
+  collection
 end
