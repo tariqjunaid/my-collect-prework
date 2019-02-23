@@ -4,6 +4,6 @@ def my_collect(collection)
     yield collection[i]
     i += 1
   end
-  my_collect(collection) do { |lang| lang.upcase }
+  (collection) do { |lang| lang.upcase }
   collection
 end
