@@ -1,9 +1,9 @@
 def my_collect(collection)
-  new_collection = []
+ # new_collection = []
   i = 0
   while i < collection.length
-    yield new_collection[i]
+    yield collection[i]
     i += 1
-    new_collection
+ #   new_collection
   end
 end
